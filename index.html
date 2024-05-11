@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Page</title>
+<style>
+    body {
+        background: #222;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    .thumbnails img {
+        height: 80px;
+        border: 4px solid #555;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+    }
+
+    .thumbnails img:hover{
+        border: 4px solid #00ccff;
+    }
+
+    .preview img {
+        border: 4px solid #444;
+        padding: 1px;
+        width: 80%;
+    }
+
+</style>
+
+
+</head>
+
+<body>
+<div id="container" align="center">
+
+    <h1>Aaronjnr Web Gallery</h1>
+
+    <br />
+
+    <div class="thumbnails">
+        <img onmouseover="preview.src=img1.src" src="yellowcap.jpg" name="img1">
+        <img onmouseover="preview.src=img2.src" src="standingvintage.jpeg" name="img2">
+        <img onmouseover="preview.src=img3.src" src="pexel4.jpg" name="img3">
+        <img onmouseover="preview.src=img4.src" src="whiteshirt.jpeg" name="img4">
+        <img onmouseover="preview.src=img5.src" src="IMG_5327...jpg" name="img5">
+        <img onmouseover="preview.src=img6.src" src="IMG_0346.JPEG" name="img6">
+        <img onmouseover="preview.src=img7.src" src="pexel2.jpg" name="img7">
+        <img onmouseover="preview.src=img8.src" src="angel.jpeg" name="img8">
+        <img onmouseover="preview.src=img9.src" src="ghana.JPEG" name="img9">
+        <img onmouseover="preview.src=img10.src" src="shortleeves.JPEG" name="img10">
+        <img onmouseover="preview.src=img11.src" src="pexel3.jpg" name="img11">
+        <img onmouseover="preview.src=img12.src" src="yellowcap.jpg" name="img12">
+        <img onmouseover="preview.src=img13.src" src="ghana.JPEG" name="img13">
+        <img onmouseover="preview.src=img14.src" src="senator.JPEG" name="img14">
+        <img onmouseover="preview.src=img15.src" src="4b490f23-29fd-4115-b902-99795b711184.JPEG" name="img15">
+        <img onmouseover="preview.src=img16.src" src="celinepolo.JPG" name="img16">
+        <img onmouseover="preview.src=img17.src" src="nose.jpg" name="img17">
+        <img onmouseover="preview.src=img18.src" src="pexel3.jpg" name="img18">
+        <img onmouseover="preview.src=img19.src" src="suit.JPEG" name="img19">
+        <img onmouseover="preview.src=img20.src" src="pexel5.jpg" name="img20">
+    </div>
+
+    <br />
+
+    <div class="preview" align="center">
+        <img src="yellowcap.jpg" name="preview">
+    </div>
+
+</div>    
+</body>
+</html>
